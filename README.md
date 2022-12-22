@@ -1,3 +1,3 @@
 # Final-Year-Project
-My Final Year Project that explores the application artificial intelligence to infrastructure monitoring
+My Final Year Project that explores the application artificial intelligence to infrastructure monitoring <br>
 Work in Progress
