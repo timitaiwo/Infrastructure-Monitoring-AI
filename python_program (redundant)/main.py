@@ -4,4 +4,6 @@
 
 
 
+# image_parsing raises exception if captured_images directory does not exist
+# The exception 'The Directory 'captured_images' is Missing'
 

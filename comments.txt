@@ -1,0 +1,35 @@
+the images are converted to grayscale from RGB to reduce modelling complexity. RGB has three channels vs grayscale that has one (https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/)
+
+the model is trained on edge detected images as this is gives the model more consistent data to work with compared to the original or blurred image (marginal improvement when image is blurred).
+Feature detection using ORB shows that more features are detected in an edge detected image (attach images as proof) (https://docs.opencv.org/3.4/d1/d89/tutorial_py_orb.html)
+
+
+Convolutional NNs have been shown to be good for ML problems that deal with images (https://machinelearningmastery.com/when-to-use-mlp-cnn-and-rnn-neural-networks/)
+
+
+only boards with two visible legs used for consistency
+certain images were discarded as they introduced too much randomness as observed after edge detection was done
+
+the perfomance of blurring techniques in reducing noise in the image was examined.
+1. bilateral blurring (cv2.bilateralFilter) performed the best with the least noise while preserving the edges of the structure.
+2. median blurring with a kernel size of 9 perfomed the second best by maintaining enough edges while removing noise.
+3. gausian blurring had the most errors when edge detection was done.
+
+
+
+
+
+Convolutional Neural Network
+
+(benefits of CNN for image training)
+
+- cnn does not handle rotation and scale, use data augmentation methods to generate new rotated and scaled images for training
+
+Pooling layer is to reduce the dimensions of the image,
+
+-reduces chances of overfitting
+-reduces noise
+-reduces dimensions & computations
+
+
+

@@ -1,4 +1,4 @@
-# Image caputure library
+# Image capture library
 import cv2
 
 # Path management libraries
@@ -7,11 +7,10 @@ from shutil import rmtree
 
 # Time management library
 from datetime import datetime, timedelta
-from time import sleep
 
 
 # Program
-def main():
+def five_sec_image_capture():
     '''
     main function of image_capture.py
 
@@ -109,4 +108,4 @@ def five_secs_later(time_now=datetime.now()):
 
 
 if __name__=='__main__':
-    main()
+    five_sec_image_capture()
