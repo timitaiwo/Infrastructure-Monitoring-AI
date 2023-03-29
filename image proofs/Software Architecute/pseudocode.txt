@@ -1,0 +1,18 @@
+if save_directory exists
+    delete all files
+else
+    create save_directory
+
+
+trigger_time = current_time
+
+
+while True:
+    if trigger_time == current_time
+        capture_image
+        predict class from image
+        print prediction
+        save_ image
+
+        next_run = trigger_time + 5 seconds
+        trigger_time = next_run
