@@ -1,6 +1,5 @@
-# Final-Year-Project
-My Final Year Project that explores the application artificial intelligence to infrastructure monitoring
-
+# Infrastructure Monitoring AI (Bachelor's Final Year Project)
+My Final Year Project that explores the application of **artificial intelligence to infrastructure monitoring**
 
 The trained model is in the trained_models folder with test images in the training_images folder
 
